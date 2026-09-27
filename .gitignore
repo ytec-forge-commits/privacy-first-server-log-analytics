@@ -1,0 +1,18 @@
+# Deployment-specific private state
+/config.php
+/routes.json
+/data/
+/sessions/
+/locks/
+/state/
+/backups/
+/output/
+*.sqlite
+*.sqlite-*
+*.sqlite.*
+*.log
+*.log.gz
+!tests/fixtures/access.log
+
+# Local tooling
+/.codex/state/

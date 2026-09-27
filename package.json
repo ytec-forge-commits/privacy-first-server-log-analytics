@@ -1,0 +1,11 @@
+{
+  "name": "privacy-first-server-log-analytics",
+  "private": true,
+  "version": "1.0.1",
+  "description": "Privacy-first, server-log-only analytics for PHP hosting.",
+  "scripts": {
+    "test": "node bin/run-php-tests.mjs && node bin/verify-public-package.mjs",
+    "test:php": "node bin/run-php-tests.mjs",
+    "test:package": "node bin/verify-public-package.mjs"
+  }
+}

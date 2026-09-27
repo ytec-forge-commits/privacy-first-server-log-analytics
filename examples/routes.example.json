@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "base": "/example",
+  "pages": [
+    { "path": "/example/", "label": "Home / ホーム" },
+    { "path": "/example/docs/", "label": "Documentation / ドキュメント" }
+  ]
+}

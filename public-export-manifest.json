@@ -1,0 +1,318 @@
+﻿{
+    "SchemaVersion":  "1.1",
+    "Verdict":  "APPROVED_FOR_PUBLIC_PUSH",
+    "SourceHistoryMode":  "CLEAN_SNAPSHOT_ONLY",
+    "OldPublicHistoryImported":  false,
+    "HistoryGuard":  "CLEAN_SNAPSHOT_NO_OLD_PUBLIC_HISTORY",
+    "HistoryPolicy":  {
+                          "Mode":  "INITIAL_ROOT_ONLY",
+                          "ApprovedPublicBaseCommit":  null
+                      },
+    "Source":  {
+                   "SourceHead":  "47581e671929653afa9bc3d9f6708c620fd36d5d",
+                   "SourceTree":  "aac1bd557b4dc4c9a8cac68c6f1ca75db2fcc291",
+                   "TargetRepository":  "ytec-forge-commits/privacy-first-server-log-analytics"
+               },
+    "Export":  {
+                   "ExportTreeHash":  "c1163c0af4afd565d1b3145b406f8d8ee555b3ec6e506d52dfe41bb0f074ed8c",
+                   "Files":  [
+                                 {
+                                     "Path":  ".github/workflows/php.yml",
+                                     "Size":  505,
+                                     "Sha256":  "ce85bb17402e89acc9dc48e97b2f91358af9a045a73377aa01e2a308f5fd458c"
+                                 },
+                                 {
+                                     "Path":  ".gitignore",
+                                     "Size":  219,
+                                     "Sha256":  "2afc133bb071ab0098f465f9cdb6a9cdc7853a7618d6035caa3b13cd41c22135"
+                                 },
+                                 {
+                                     "Path":  "AGENTS.md",
+                                     "Size":  576,
+                                     "Sha256":  "7e59455002d550e03f07f1720f5637911b6b33a4647bd49de0bdf88deee2969e"
+                                 },
+                                 {
+                                     "Path":  "app.php",
+                                     "Size":  20950,
+                                     "Sha256":  "3837be5510e660600714ed19ba886977593587a9e6b4251e99fdc35b23f3d22b"
+                                 },
+                                 {
+                                     "Path":  "bin/daily-import.php",
+                                     "Size":  1075,
+                                     "Sha256":  "ee0c69b73fb9d97136c055e4fd61c2e6d4bf638cfc8e2cb7d8d7ba809273abfd"
+                                 },
+                                 {
+                                     "Path":  "bin/generate-route-manifest.mjs",
+                                     "Size":  2465,
+                                     "Sha256":  "4241a3ea9665a2c7e02ca2ec67ac362413e87f4e0362cd07dac9ed3b8c0fc9d1"
+                                 },
+                                 {
+                                     "Path":  "bin/hash-password.php",
+                                     "Size":  603,
+                                     "Sha256":  "fbc0acada7caf146e2729452263c09937409680395ef7f7c0617399c955fdee9"
+                                 },
+                                 {
+                                     "Path":  "bin/import.php",
+                                     "Size":  3047,
+                                     "Sha256":  "98ff8089ca8ba10134c1e23a226317bdf62945b077d0b766f9a3de67b124bd5c"
+                                 },
+                                 {
+                                     "Path":  "bin/preflight.php",
+                                     "Size":  6522,
+                                     "Sha256":  "458fe26ad40cb9f056952eda08a3d5044a596e1a1eeea4e84adc5aa1eb978920"
+                                 },
+                                 {
+                                     "Path":  "bin/Protect-AnalyticsBackup.ps1",
+                                     "Size":  2931,
+                                     "Sha256":  "3a470b7360366d6228fc74fb5809642b8b55578234c967f95a1df65d039ec4a9"
+                                 },
+                                 {
+                                     "Path":  "bin/Restore-AnalyticsBackup.ps1",
+                                     "Size":  1834,
+                                     "Sha256":  "9b8667a02b7d96e28ccf2c68df333d87e3255a0447cffad39503604bd6672ed0"
+                                 },
+                                 {
+                                     "Path":  "bin/run-php-tests.mjs",
+                                     "Size":  972,
+                                     "Sha256":  "5d2e757eae6a6de9f15a1e06e450561a20b02ba880668221416def2a7c49a18f"
+                                 },
+                                 {
+                                     "Path":  "bin/snapshot.php",
+                                     "Size":  2173,
+                                     "Sha256":  "02319dc9596bc770870fd132f2888b39f7fc2a72f2b6718c2879a7503c172765"
+                                 },
+                                 {
+                                     "Path":  "bin/verify-public-package.mjs",
+                                     "Size":  1791,
+                                     "Sha256":  "e7c4b5f691fa0dcef9da1fe1678857a47deb5a5c06c7ae880f4b19b5856199a1"
+                                 },
+                                 {
+                                     "Path":  "config/config.example.php",
+                                     "Size":  1764,
+                                     "Sha256":  "a98cca7064a940a0f25d3c4f0196375410093d3129ee40caed7ed79a29347e02"
+                                 },
+                                 {
+                                     "Path":  "docs/backup-and-restore.en.md",
+                                     "Size":  907,
+                                     "Sha256":  "f9ad136ae6aa3f7a01be6f68bd6a41399d82b76f5bdd5929f35d7a44110c5107"
+                                 },
+                                 {
+                                     "Path":  "docs/backup-and-restore.md",
+                                     "Size":  1050,
+                                     "Sha256":  "5130a1216c535f00584473fa65767f1909a065c8a7468c5a9fd27e2701e2aaa3"
+                                 },
+                                 {
+                                     "Path":  "docs/cloudfree.en.md",
+                                     "Size":  1741,
+                                     "Sha256":  "e504e9b0a00c7da8e5836f89ca8f018761535ed0d6db36f6054c68868681e439"
+                                 },
+                                 {
+                                     "Path":  "docs/cloudfree.md",
+                                     "Size":  1946,
+                                     "Sha256":  "ad624bbe3141d53e52fef803f28a99a6f34180ef17cbb0ac0b9c168f888ae96f"
+                                 },
+                                 {
+                                     "Path":  "docs/installation.en.md",
+                                     "Size":  2975,
+                                     "Sha256":  "137f452f722daa119632ea2638a3fc0f13791b5a7914b4ec44e850a12a63cdbe"
+                                 },
+                                 {
+                                     "Path":  "docs/installation.md",
+                                     "Size":  3467,
+                                     "Sha256":  "1d11575f16e489699b5010d5b250fb9d60015c0e971434c4b5fc2a5f2d8421f8"
+                                 },
+                                 {
+                                     "Path":  "docs/privacy-model.en.md",
+                                     "Size":  1442,
+                                     "Sha256":  "b3afe1192bac89d0ec3637dc6d17800f72e8d4bed4e98c87b567e3a3264205e1"
+                                 },
+                                 {
+                                     "Path":  "docs/privacy-model.md",
+                                     "Size":  1801,
+                                     "Sha256":  "c9a83d9892db13d7f2c87c6afa548c1cbde95e79d3869c41142e956305895d16"
+                                 },
+                                 {
+                                     "Path":  "docs/supported-log-formats.en.md",
+                                     "Size":  696,
+                                     "Sha256":  "9e538819b0debe4122b8c1fbff304050cf315b11f3d1f85b4d13cedbeb50dd12"
+                                 },
+                                 {
+                                     "Path":  "docs/supported-log-formats.md",
+                                     "Size":  855,
+                                     "Sha256":  "1f3b6f7c97cbdeae5a7c4f3b8d97f75f6d3cc9a87f8b9b61c004f1aa1a96315d"
+                                 },
+                                 {
+                                     "Path":  "examples/crontab.example",
+                                     "Size":  203,
+                                     "Sha256":  "028393709ab3de90335700f937bee50fc804d7b919d0239d0735f3ce219966f2"
+                                 },
+                                 {
+                                     "Path":  "examples/routes.example.json",
+                                     "Size":  197,
+                                     "Sha256":  "c26ef44fcc5afd4a221ff755722a8e2075b09ad35a75e5805c721376c0d4cb94"
+                                 },
+                                 {
+                                     "Path":  "LICENSE",
+                                     "Size":  11324,
+                                     "Sha256":  "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a"
+                                 },
+                                 {
+                                     "Path":  "NOTICE",
+                                     "Size":  242,
+                                     "Sha256":  "a9c3c01ec4004e55e728457a6fb36c1de33b0014002909d27855ded2770ff951"
+                                 },
+                                 {
+                                     "Path":  "package.json",
+                                     "Size":  373,
+                                     "Sha256":  "6b58f3b565c95ecc557758055497f6b284c2246fa264f999c8577bcb63e93ae8"
+                                 },
+                                 {
+                                     "Path":  "public/admin/index.php",
+                                     "Size":  726,
+                                     "Sha256":  "f597297f62a37f5653430bf8a0c80ee3c4bb6bb3789c0872f5af553c1696f25d"
+                                 },
+                                 {
+                                     "Path":  "public/admin/style.css",
+                                     "Size":  6875,
+                                     "Sha256":  "73b610e3b66d434b0380e5454b317df2a188955e8200bdd3916a1d30ab341b3f"
+                                 },
+                                 {
+                                     "Path":  "README.en.md",
+                                     "Size":  2488,
+                                     "Sha256":  "8f59a89e95437e19d451efa775a1515ee16951dd9a5a4812fa34f20fd986564f"
+                                 },
+                                 {
+                                     "Path":  "README.md",
+                                     "Size":  2797,
+                                     "Sha256":  "7cce223a14d8cc8fb49c70f7884d5572e17f6185205e9454aaed52d067e590a7"
+                                 },
+                                 {
+                                     "Path":  "SECURITY.md",
+                                     "Size":  1040,
+                                     "Sha256":  "51f3907774ab7b830f7457b70afefcbd19eac7e9fac15fadc83898809bb307e4"
+                                 },
+                                 {
+                                     "Path":  "src/Analytics.php",
+                                     "Size":  36580,
+                                     "Sha256":  "90a78e7ebd0bc04f8aeb12dfab521cb8716ef46e361c3737fff8d3970e50ebfd"
+                                 },
+                                 {
+                                     "Path":  "tests/fixtures/access.log",
+                                     "Size":  1763,
+                                     "Sha256":  "45bb0a149670a46dd1202c73713b952f006c77e9202cadf593bb306d52294c0a"
+                                 },
+                                 {
+                                     "Path":  "tests/run.php",
+                                     "Size":  13630,
+                                     "Sha256":  "40b217ddcee74c0295c88d1b67994b5a2688b1e8af0fdef0bc842aed3a2e0c2b"
+                                 }
+                             ]
+               },
+    "Transform":  {
+                      "Mode":  "EXACT_SOURCE",
+                      "PlanSha256":  null,
+                      "ValidationSha256":  null,
+                      "Files":  [
+
+                                ]
+                  },
+    "ScannerConfiguration":  {
+                                 "ExactFingerprint":  "sha256-fingerprints",
+                                 "ProviderSecret":  "gitleaks-dir",
+                                 "SecondSecret":  "trufflehog-filesystem",
+                                 "PathAndFilename":  "custom-rules"
+                             },
+    "ScannerToolchain":  {
+                             "Mode":  "PINNED_RELEASES",
+                             "Gitleaks":  {
+                                              "Version":  "8.30.1",
+                                              "Sha256":  "17157e2ee8b76fc8b1d8bee607a250e34b8a8023c8bc81822d4b5ee4d78fcb7c"
+                                          },
+                             "TruffleHog":  {
+                                                "Version":  "3.97.9",
+                                                "Sha256":  "a1825a8b0feb00a0a3a2b1fed765fdde4d0d65c9e775adb91ff5be15170ec5db"
+                                            }
+                         },
+    "ScannerEvidenceId":  "ytec-public-safety-cb34fc469ef64c7aa4481c588ee8e8a6",
+    "ScannerResults":  {
+                           "ExactFingerprint":  "PASS",
+                           "ProviderSecret":  "PASS",
+                           "SecondSecret":  "PASS",
+                           "PathAndFilename":  "PASS"
+                       },
+    "InspectionCoverage":  {
+                               "CommitMessages":  "PASS",
+                               "Filenames":  "PASS",
+                               "Binary":  "NOT_APPLICABLE",
+                               "Archives":  "NOT_APPLICABLE",
+                               "ImageMetadata":  "NOT_APPLICABLE",
+                               "DocumentMetadata":  "NOT_APPLICABLE"
+                           },
+    "ReviewEvidence":  {
+                           "license":  {
+                                           "Status":  "PASS",
+                                           "EvidenceProvided":  true
+                                       },
+                           "media":  {
+                                         "Status":  "PASS",
+                                         "EvidenceProvided":  true
+                                     },
+                           "workflow":  {
+                                            "Status":  "PASS",
+                                            "EvidenceProvided":  true
+                                        },
+                           "release":  {
+                                           "Status":  "PASS",
+                                           "EvidenceProvided":  true
+                                       },
+                           "archive":  {
+                                           "Status":  "PASS",
+                                           "EvidenceProvided":  true
+                                       },
+                           "binary":  {
+                                          "Status":  "PASS",
+                                          "EvidenceProvided":  true
+                                      },
+                           "imageMetadata":  {
+                                                 "Status":  "PASS",
+                                                 "EvidenceProvided":  true
+                                             },
+                           "documentMetadata":  {
+                                                    "Status":  "PASS",
+                                                    "EvidenceProvided":  true
+                                                }
+                       },
+    "Findings":  [
+                     {
+                         "Rule":  "credential filename",
+                         "File":  "bin/hash-password.php",
+                         "BlobSha256":  "fbc0acada7caf146e2729452263c09937409680395ef7f7c0617399c955fdee9",
+                         "Severity":  "HIGH",
+                         "Status":  "FALSE_POSITIVE",
+                         "Disposition":  "FALSE_POSITIVE",
+                         "Redacted":  true
+                     },
+                     {
+                         "Rule":  "email",
+                         "File":  "tests/run.php",
+                         "BlobSha256":  "40b217ddcee74c0295c88d1b67994b5a2688b1e8af0fdef0bc842aed3a2e0c2b",
+                         "Severity":  "HIGH",
+                         "Status":  "FALSE_POSITIVE",
+                         "Disposition":  "FALSE_POSITIVE",
+                         "Redacted":  true
+                     },
+                     {
+                         "Rule":  "email",
+                         "File":  "tests/fixtures/access.log",
+                         "BlobSha256":  "45bb0a149670a46dd1202c73713b952f006c77e9202cadf593bb306d52294c0a",
+                         "Severity":  "HIGH",
+                         "Status":  "FALSE_POSITIVE",
+                         "Disposition":  "FALSE_POSITIVE",
+                         "Redacted":  true
+                     }
+                 ],
+    "ForbiddenHistoryCommitIds":  [
+
+                                  ],
+    "PreparedAtUtc":  "2026-09-27T11:40:20.4211347Z"
+}

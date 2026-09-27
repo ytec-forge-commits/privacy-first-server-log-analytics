@@ -1,0 +1,2 @@
+# Run after the hosting provider has generated the previous day's log.
+40 6 * * * /usr/bin/php /home/ACCOUNT/private-analytics/bin/daily-import.php >> /home/ACCOUNT/private-analytics/state/cron.log 2>&1
